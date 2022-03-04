@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario - Pastelería Kosmos</title>
+</head>
+<body>
+        <form>
+            <h1>Haz tu pedido aquí:</h1>
+            <hr>
+                <label for="nombre-1">Nombre:</label>
+                <input type="text" id="nombre-1" autocomplete="off">
+            <br /> <br />
+                <label for="tel-1">Teléfono:</label>
+                <input type="tel" id="tel-1" autocomplete="off" maxlength="10">
+            <br /> <br />
+                <label for="email-1">Correo:</label>
+                <input type="email" id="email-1" autocomplete="off">
+            <br /> 
+            <p>¿Tu sabor será un solo o combinado?</p>
+                <input type="radio" name="opcion-sabor" id="sabor-solo"/>
+                <label for="sabor-solo">Un sabor</label> 
+                <br>
+                <input type="radio" name="opcion-sabor" id="sabor-combinado"/>
+                <label for="sabor-combinado">Combinado</label> 
+            <br /> 
+            <p>Selecciona tu sabor:</p>
+                <input type="checkbox" value="sabor-1"/>
+                <label for="sabor-1">Fresa</label>
+                <input type="checkbox" value="sabor-2"/>
+                <label for="sabor-2">Chocolate</label>
+                <input type="checkbox" value="sabor-3"/>
+                <label for="sabor-3">Café</label>
+                <input type="checkbox" value="sabor-4"/>
+                <label for="sabor-4">Coco</label>
+                <input type="checkbox" value="sabor-5"/>
+                <label for="sabor-5">3 Leches</label>
+            <p>¿Tu decoracion será un sola o combinada?</p>
+                <input type="radio" name="opcion-decorado" id="decoracion-solo"/>
+                <label for="decoracion-solo">Una decoración</label> 
+                <br>
+                <input type="radio" name="opcion-decorado" id="decoracion-combinado"/>
+                <label for="decoracion-combinado">Combinada</label> 
+            <br /> 
+            <p>Selecciona tu decoración:</p>
+                <input type="checkbox" value="decoracion-1"/>
+                <label for="decoracion-1">Frutal</label>
+                <input type="checkbox" value="decoracion-2"/>
+                <label for="decoracion-2">Mensaje</label>
+                <input type="checkbox" value="decoracion-3"/>
+                <label for="decoracion-3">Impresión comestible</label>
+                <input type="checkbox" value="decoracion-4"/>
+                <label for="decoracion-4">Fondant básico</label>
+                <input type="checkbox" value="decoracion-5"/>
+                <label for="decoracion-5">Fondant avanzado</label>
+            <br>
+                <label for="desc-1">Descripción general del pastel:</label>
+                <textarea id="desc-1" autocomplete="off"></textarea>
+            <br /> <br />
+                <input type="submit" value="Enviar" />
+                <input type="reset"/>
+        </form>
+    <hr>
+    <button><a href="index.html">Volver al menú</a></button>
+</body>
+</html>
