@@ -1,0 +1,281 @@
+html, body {
+    margin: 0;
+    background-color: #fff;
+    height: 100%;
+}
+
+h1 {
+    color: #1D4E89;
+    font-size: 100px;
+}
+
+h2 {
+    color: #1D4E89;
+    font-size: 60px;
+}
+
+p {
+    color: rgb(148, 148, 148);
+    font-size: 30px;
+}
+
+#top-tittle {
+    color: #00B2CA;
+    font-size: 40px;
+    padding: 0 3em;
+}
+
+.top-grid {
+    position: sticky;
+    background-color: rgb(241, 241, 241);
+    display: grid;
+    grid-template-columns: 3fr repeat(5, 1fr);
+    padding: 30px 22px;
+    align-items: center;
+}
+
+.top-grid a{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    font-size: 25px;
+}
+
+#top-button {
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #00B2CA;
+    text-align: center;
+}
+
+.central-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+}
+
+.central-content {
+    padding: 15px 15%;
+}
+
+h4 {
+    display: inline;
+    color: #1D4E89;
+
+    padding: 12px;
+    letter-spacing: 2px;
+}
+
+h4 i {
+    color: rgb(235, 238, 42);
+    margin: 0 10px;
+}
+span {
+    color: #1D4E89;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 21px;
+}
+
+span i {
+    color: #00B2CA;
+    margin: 0 10px;
+}
+
+.img-container {
+    background-image: url(recursos/pexels-anna-shvets-3902882.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    background-color: #fff;
+    width: 850px;
+    position: absolute;
+    margin: 20px;
+    opacity: 0.9;
+    box-shadow: 20px 20px 50px rgb(77, 77, 77);
+    display: none;
+}
+form div {
+    display: inline-block;
+    color: #1D4E89;
+    padding: 12px 40px;
+    font-size: 18px;
+}
+
+form .opcion {
+    color: #1D4E89;
+    border: 0;
+    font-size: 16px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+#option-submit {
+    background-color: #00B2CA;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 40px;
+    opacity: 1;
+    position: absolute;
+    top: 16%;
+    left: 78%;
+}
+
+form label i {
+    padding: 5px;
+    border-radius: 2px;
+    color: #00B2CA;
+    background-color: rgba(235, 235, 235, 0.733);
+}
+
+.dropdown {
+    margin-top: 10em;
+}
+
+.dropdown:hover form {
+    display: block;
+}
+
+.marcas-vacuna {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.marcas-vacuna img {
+    opacity: 0.6;
+    filter: grayscale(1);
+    height: 18em;
+}
+
+.central-page-2 {
+    margin: 5em;
+}
+
+.benefits-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 1;
+}
+.benefits-items {
+    border: 1px solid rgba(235, 235, 235, 0.733);
+    padding: 21px;
+}
+.benefits-items p {
+    font-size: 20px;
+}
+.benefits-items span {
+    font-size: 40px;
+}
+
+.benefits-items i {
+    font-size: 30px;
+    margin: 25px;
+    padding: 5px;
+    color: #1D4E89;
+    background-color: rgba(188, 192, 255, 0.533);
+    border-radius: 4px;
+}
+
+.benefits-items:hover {
+    box-shadow: 20px 20px 50px rgb(235, 235, 235, 0.933);
+}
+.img-container-2 {
+    background-image: url(recursos/pexels-anna-shvets-3902882.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+.central-content-2 {
+    padding: 50px;
+}
+.recomendation p {
+    font-size: 15px;
+    display: none;
+    padding-left: 100px;
+}
+.recomendation i {
+    font-size: 20px;
+    margin: 25px;
+    padding: 5px;
+    color: #1D4E89;
+    background-color: rgba(188, 192, 255, 0.533);
+    border-radius: 4px;
+}
+
+.recomendation:hover > p {
+    display: block;
+    box-shadow: 20px 20px 50px rgb(235, 235, 235, 0.933);
+}
+#third-part {
+    margin-top: 200px;
+}
+.img-container-3 {
+    background-image: url(recursos/pexels-anna-shvets-3902882.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+.inf {
+    padding: 30px;
+}
+.flexbox-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 1;
+}
+.flexbox-item-2 {
+    border: 1px solid rgba(235, 235, 235, 0.733);
+    margin: 15px;
+    padding: 30px;
+}
+.flexbox-item-2 span {
+    display: inline-block;
+}
+.flexbox-item-2 a {
+    color: #1D4E89;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(235, 235, 235, 0.733);
+    padding: 10px 15px;
+}
+.flexbox-item-2 i {
+    color: #1D4E89;
+    font-size: 40px;
+    padding: 30px;
+}
+.flexbox-item-2:hover > a {
+    background-color: #1D4E89;
+    color: #fff;
+}
+.flexbox-item-2:hover {
+    box-shadow: 20px 20px 50px rgb(235, 235, 235, 0.933);
+}
+.footer {
+    background-color: rgb(226, 226, 226);
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 3fr repeat(3, 1fr);
+    padding: 30px;
+}
+.footer p {
+    color: #1D4E89;
+    font-size: 20px;
+}
+.footer h3 {
+    color: #1D4E89;
+    font-size: 40px;
+}
+.footer a {
+    display: block;
+    color: #1D4E89;
+    margin: 15px;
+}
